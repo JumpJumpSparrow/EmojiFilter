@@ -9,7 +9,8 @@
 
 3. emoji集合是用二分查找实现的，效率较高
 
-如果能帮到你的话麻烦点个小星星
+如果能帮到你的话麻烦点个小星星<br>
+
 <img width="150" height="300" src="https://github.com/JumpJumpSparrow/EmojiFilter/blob/master/screenshot.png"/>
 
 
