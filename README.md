@@ -9,7 +9,7 @@
 
 3. emoji集合是用二分查找实现的，效率较高
 
-https://github.com/JumpJumpSparrow/EmojiFilter/blob/master/screenshot.png
+![image](https://github.com/JumpJumpSparrow/EmojiFilter/blob/master/screenshot.png)
 
 > Emoji 是 Unicode 的一部分，它在 Unicode 中有对应的码点（ CodePoint），也就是说，Emoji
 > 符号就是一个文字。
