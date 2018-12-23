@@ -44,7 +44,7 @@ UTF-16 编码有大尾序和小尾序之别，即 UTF-16BE 和 UTF-16LE，
 其中 U+FEFF 字符在 Unicode 中代表的意义是 ZERO WIDTH NO-BREAK SPACE，顾名思义，它是个没有宽度也没有断字的空白。
 
 参考资料：
-###1.https://www.jianshu.com/p/42fd6f84c27a
+1.https://www.jianshu.com/p/42fd6f84c27a
 2.http://www.unicode.org/Public/emoji/11.0/emoji-data.txt
 
 工具：
