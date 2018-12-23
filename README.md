@@ -9,6 +9,8 @@
 
 3. emoji集合是用二分查找实现的，效率较高
 
+如果能帮到你的话麻烦点个小星星
+
 ![image](https://github.com/JumpJumpSparrow/EmojiFilter/blob/master/screenshot.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
 
 > Emoji 是 Unicode 的一部分，它在 Unicode 中有对应的码点（ CodePoint），也就是说，Emoji
