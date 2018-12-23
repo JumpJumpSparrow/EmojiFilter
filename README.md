@@ -9,6 +9,8 @@
 
 3. emoji集合是用二分查找实现的，效率较高
 
+
+
 > Emoji 是 Unicode 的一部分，它在 Unicode 中有对应的码点（ CodePoint），也就是说，Emoji
 > 符号就是一个文字。
 
@@ -64,14 +66,14 @@ utf编码原理
 ----------
 
 
-工具：
+工具：<br>
 进制转换
 
 
 
 http://tool.oschina.net/hexconvert/ 
 
-码点查找</br>
+码点查找<br>
 https://www.qqxiuzi.cn/bianma/Unicode-UTF.php
 
 
