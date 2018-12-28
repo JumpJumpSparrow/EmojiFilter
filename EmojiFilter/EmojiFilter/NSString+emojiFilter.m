@@ -83,7 +83,8 @@ bool isEmojiSetContainsChar(long singleChar) {
         return @"";
     }
     
-    NSMutableString *emoji = [NSMutableString string];
+    NSMutableCharacterSet *emojiSet = [[NSMutableCharacterSet alloc] init];
+    
     [self enumerateSubstringsInRange:NSMakeRange(0, self.length)
                              options:NSStringEnumerationByComposedCharacterSequences
                           usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
@@ -98,19 +99,13 @@ bool isEmojiSetContainsChar(long singleChar) {
                                   }
                                   bool isEmoji = isEmojiSetContainsChar(realChar);
                                   if (isEmoji) {
-//                                      NSLog(@"=====%@", substring);
-                                      [emoji appendString:substring];
+                                      [emojiSet addCharactersInString:substring];
                                   }
                               }
                               
                           }];
-    
-    if (emoji.length > 0) {
-        NSString *pure = [self stringByReplacingOccurrencesOfString:emoji withString:@""];
-        return pure;
-    }
-    
-    return self;
+    NSArray *arr = [self componentsSeparatedByCharactersInSet:emojiSet];
+    return  [arr componentsJoinedByString:@""];
 }
 
 @end
